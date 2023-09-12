@@ -1,0 +1,4 @@
+﻿<connectionStrings>
+	<add name="MyConnection" connectionString="User Id=C##_aysegul;Password=minik;Data Source=localhost;" />
+</connectionStrings>
+

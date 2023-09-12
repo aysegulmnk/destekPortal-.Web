@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Paneli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        #admin-panel {
+            width: 300px;
+            background-color: #fff;
+            color: #fff;
+            padding: 20px;
+            height: 100vh;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .kategori {
+            background-color: #444;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .kategori:hover {
+            background-color: #cb6f2e;
+        }
+
+        .kategori h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        #icerik {
+            flex: 1;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <div id="admin-panel">
+        <div class="logo">
+            <img src="proliz.jpg" alt="Logo">
+        </div>
+        <div class="kategori">
+            <h2>Talep</h2>
+        </div>
+        <div class="kategori">
+            <h2>Talep Kategorisi</h2>
+        </div>
+        <div class="kategori">
+            <h2>Talep Önceliği</h2>
+        </div>
+        <div class="kategori">
+            <h2>Talep Sorumlusu</h2>
+        </div>
+        <div class="kategori">
+            <h2>Talep Durumu</h2>
+        </div>
+        <div class="kategori">
+            <h2>Talep Puanı</h2>
+        </div>
+    </div>
+
+    <div id="icerik">
+        
+    </div>
+</body>
+</html>
